@@ -50,9 +50,6 @@ elif args.block_type == 'convbn_block':
 elif args.block_type == 'convbnrc_block':
     processing_block_type = ConvolutionalProcessingBlockBatchNormalisationResidualConnection
     dim_reduction_block_type = ConvolutionalDimensionalityReductionBlockBatchNormalisation
-elif args.block_type == 'convrc_block': # Additional implementation of RC blocks just for testing
-    processing_block_type = ConvolutionalProcessingBlockResidualConnection
-    dim_reduction_block_type = ConvolutionalDimensionalityReductionBlock
 elif args.block_type == 'empty_block':
     processing_block_type = EmptyBlock
     dim_reduction_block_type = EmptyBlock

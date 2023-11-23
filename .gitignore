@@ -69,3 +69,6 @@ notebooks/.ipynb_checkpoints/
 
 #Google Cloud stuff
 /google-cloud-sdk
+
+#Data
+/data
